@@ -1,0 +1,14 @@
+---
+services:
+  ipblocklist-geofiltered-aggregator:
+    container_name: ipblocklist-geofiltered-aggregator
+    build: .
+    volumes:
+      - ./data:/data
+      - ./.env:/app/.env
+    env_file:
+      - .env
+    environment:
+      - ALL_IPS_FROM_LISTS=/data/output/aggregated.txt
+      - GEOIP_CSV_PATH=/data/geoip/geoip2-ipv4.csv
+    command: /app/run.sh
