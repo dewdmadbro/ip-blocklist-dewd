@@ -1,54 +1,54 @@
 # Multi-Country IP Aggregation Statistics
 
-**Last Updated:** 2026-05-03 04:58:19 UTC
+**Last Updated:** 2026-05-03 09:41:52 UTC
 
 ## 📈 Country Distribution
 
 ```mermaid
 pie showData title IP Blocklist Distribution by Country
-"United States" : 17.9
-"Netherlands" : 7.8
-"Germany" : 4.3
-"Singapore" : 3.7
-"United Kingdom" : 3.4
-"Canada" : 2.6
-"Australia" : 2.3
-"Australia" : 2.3
-"France" : 2.2
-"South Korea" : 1.3
-"Japan" : 1.1
-"Mexico" : 1.0
-"Italy" : 0.9
+"United States" : 16.2
+"Netherlands" : 5.3
+"Germany" : 3.8
+"Singapore" : 3.1
+"United Kingdom" : 2.9
+"Canada" : 2.3
+"France" : 2.0
+"Australia" : 1.7
+"Australia" : 1.7
+"Italy" : 1.5
+"South Korea" : 1.4
+"Japan" : 1.3
+"Mexico" : 1.1
 "Spain" : 0.7
-"Other/Unfiltered" : 48.6
+"Other/Unfiltered" : 55.1
 ```
 
 ## Overall Summary
 
-- **Total Input IPs:** 504,707
+- **Total Input IPs:** 900,479
 - **Countries Processed:** 14
-- **Combined Unique IPs:** 248,268
+- **Combined Unique IPs:** 389,500
 - **Combined Output File:** `aggregated-multi-14countries-combined.txt`
-- **Overall Filter Rate:** 49.19%
+- **Overall Filter Rate:** 43.25%
 
 ## Per-Country Results
 
 | Country | Code | Networks Found | Networks Optimized | IPs Matched | Filter Rate | Output File |
 |---------|------|----------------|--------------------|-----------|-----------|-----------|
-| France | FR | 32,393 | 32,367 | 11,256 | 2.23% | `aggregated-fr-only.txt` |
-| Netherlands | NL | 18,273 | 18,151 | 39,203 | 7.77% | `aggregated-nl-only.txt` |
-| Italy | IT | 9,580 | 9,556 | 4,659 | 0.92% | `aggregated-it-only.txt` |
-| Spain | ES | 11,140 | 11,107 | 3,563 | 0.71% | `aggregated-es-only.txt` |
-| Mexico | MX | 4,307 | 4,303 | 4,890 | 0.97% | `aggregated-mx-only.txt` |
-| Japan | JP | 12,061 | 12,055 | 5,693 | 1.13% | `aggregated-jp-only.txt` |
-| Australia | AU | 11,396 | 11,317 | 11,358 | 2.25% | `aggregated-au-only.txt` |
-| Singapore | SG | 9,268 | 9,258 | 18,632 | 3.69% | `aggregated-sg-only.txt` |
-| United States | US | 169,198 | 167,680 | 90,203 | 17.87% | `aggregated-us-only.txt` |
-| Canada | CA | 16,890 | 16,768 | 13,046 | 2.58% | `aggregated-ca-only.txt` |
-| United Kingdom | GB | 33,411 | 33,252 | 17,244 | 3.42% | `aggregated-gb-only.txt` |
-| Australia | AU | 11,396 | 11,317 | 11,358 | 2.25% | `aggregated-au-only.txt` |
-| Germany | DE | 28,972 | 28,867 | 21,811 | 4.32% | `aggregated-de-only.txt` |
-| South Korea | KR | 4,006 | 3,996 | 6,710 | 1.33% | `aggregated-kr-only.txt` |
+| France | FR | 32,393 | 32,367 | 17,600 | 1.95% | `aggregated-fr-only.txt` |
+| Netherlands | NL | 18,273 | 18,151 | 47,515 | 5.28% | `aggregated-nl-only.txt` |
+| Italy | IT | 9,580 | 9,556 | 13,291 | 1.48% | `aggregated-it-only.txt` |
+| Spain | ES | 11,140 | 11,107 | 6,247 | 0.69% | `aggregated-es-only.txt` |
+| Mexico | MX | 4,307 | 4,303 | 9,874 | 1.10% | `aggregated-mx-only.txt` |
+| Japan | JP | 12,061 | 12,055 | 12,081 | 1.34% | `aggregated-jp-only.txt` |
+| Australia | AU | 11,396 | 11,317 | 14,928 | 1.66% | `aggregated-au-only.txt` |
+| Singapore | SG | 9,268 | 9,258 | 27,523 | 3.06% | `aggregated-sg-only.txt` |
+| United States | US | 169,198 | 167,680 | 145,650 | 16.17% | `aggregated-us-only.txt` |
+| Canada | CA | 16,890 | 16,768 | 21,147 | 2.35% | `aggregated-ca-only.txt` |
+| United Kingdom | GB | 33,411 | 33,252 | 26,262 | 2.92% | `aggregated-gb-only.txt` |
+| Australia | AU | 11,396 | 11,317 | 14,928 | 1.66% | `aggregated-au-only.txt` |
+| Germany | DE | 28,972 | 28,867 | 34,565 | 3.84% | `aggregated-de-only.txt` |
+| South Korea | KR | 4,006 | 3,996 | 12,817 | 1.42% | `aggregated-kr-only.txt` |
 
 ## IP Sources
 
@@ -64,9 +64,14 @@ pie showData title IP Blocklist Distribution by Country
 - **Source 10:** https://raw.githubusercontent.com/romainmarcoux/malicious-ip/refs/heads/main/full-300k-ac.txt
 - **Source 11:** https://raw.githubusercontent.com/romainmarcoux/malicious-ip/refs/heads/main/full-300k-ad.txt
 - **Source 12:** http://cinsscore.com/list/ci-badguys.txt
-- **Source 13:** https://raw.githubusercontent.com/borestad/firehol-mirror/refs/heads/main/firehol_level3.netset
-- **Source 14:** https://raw.githubusercontent.com/borestad/firehol-mirror/refs/heads/main/ciarmy.ipset
-- **Source 15:** https://raw.githubusercontent.com/borestad/firehol-mirror/refs/heads/main/firehol_level4.netset
+- **Source 13:** https://cdn.jsdelivr.net/gh/LittleJake/ip-blacklist/all_blacklist.txt
+- **Source 14:** https://raw.githubusercontent.com/MagicTeaMC/bad-ips/refs/heads/main/bad-ips.txt
+- **Source 15:** https://raw.githubusercontent.com/MagicTeaMC/MCSTORM-IP/main/mcstorm-ip.txt
+- **Source 16:** https://opendbl.net/lists/blocklistde-all.list
+- **Source 17:** https://raw.githubusercontent.com/bitwire-it/ipblocklist/refs/heads/main/ip-list.txt
+- **Source 18:** https://raw.githubusercontent.com/borestad/firehol-mirror/refs/heads/main/firehol_level3.netset
+- **Source 19:** https://raw.githubusercontent.com/borestad/firehol-mirror/refs/heads/main/ciarmy.ipset
+- **Source 20:** https://raw.githubusercontent.com/borestad/firehol-mirror/refs/heads/main/firehol_level4.netset
 
 ## Configuration Details
 
