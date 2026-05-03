@@ -2,7 +2,7 @@
 
 ![Workflow Status](https://github.com/dewdmadbro/ip-blocklist-dewd/actions/workflows/ip-aggregation.yml/badge.svg)
 ![Countries](https://img.shields.io/badge/Countries-14-278EF5)
-![Total IPs Blocked](https://img.shields.io/badge/Blocked_IPs-899696-2D56A8)
+![Total IPs Blocked](https://img.shields.io/badge/Blocked_IPs-899948-2D56A8)
           
 ![Issues](https://img.shields.io/github/issues/dewdmadbro/ip-blocklist-dewd)
 ![Last Commit](https://img.shields.io/github/last-commit/dewdmadbro/ip-blocklist-dewd)
@@ -27,7 +27,7 @@ Automated IP blocklist aggregation with multi-country geographical filtering
 
 ## 📊 Latest Statistics
 
-**Last Updated:** 2026-05-03 05:41:55 UTC
+**Last Updated:** 2026-05-03 06:42:10 UTC
 
 ## 📈 Country Distribution
 
@@ -52,9 +52,9 @@ pie showData title IP Blocklist Distribution by Country
 
 ## Overall Summary
 
-- **Total Input IPs:** 899,696
+- **Total Input IPs:** 899,948
 - **Countries Processed:** 14
-- **Combined Unique IPs:** 389,091
+- **Combined Unique IPs:** 389,237
 - **Combined Output File:** `aggregated-multi-14countries-combined.txt`
 - **Overall Filter Rate:** 43.25%
 
@@ -62,19 +62,19 @@ pie showData title IP Blocklist Distribution by Country
 
 | Country | Code | Networks Found | Networks Optimized | IPs Matched | Filter Rate | Output File |
 |---------|------|----------------|--------------------|-----------|-----------|-----------|
-| France | FR | 32,393 | 32,367 | 17,583 | 1.95% | `aggregated-fr-only.txt` |
-| Netherlands | NL | 18,273 | 18,151 | 47,472 | 5.28% | `aggregated-nl-only.txt` |
-| Italy | IT | 9,580 | 9,556 | 13,287 | 1.48% | `aggregated-it-only.txt` |
-| Spain | ES | 11,140 | 11,107 | 6,242 | 0.69% | `aggregated-es-only.txt` |
-| Mexico | MX | 4,307 | 4,303 | 9,865 | 1.10% | `aggregated-mx-only.txt` |
-| Japan | JP | 12,061 | 12,055 | 12,068 | 1.34% | `aggregated-jp-only.txt` |
-| Australia | AU | 11,396 | 11,317 | 14,921 | 1.66% | `aggregated-au-only.txt` |
-| Singapore | SG | 9,268 | 9,258 | 27,512 | 3.06% | `aggregated-sg-only.txt` |
-| United States | US | 169,198 | 167,680 | 145,426 | 16.16% | `aggregated-us-only.txt` |
-| Canada | CA | 16,890 | 16,768 | 21,107 | 2.35% | `aggregated-ca-only.txt` |
-| United Kingdom | GB | 33,411 | 33,252 | 26,305 | 2.92% | `aggregated-gb-only.txt` |
-| Australia | AU | 11,396 | 11,317 | 14,921 | 1.66% | `aggregated-au-only.txt` |
-| Germany | DE | 28,972 | 28,867 | 34,487 | 3.83% | `aggregated-de-only.txt` |
+| France | FR | 32,393 | 32,367 | 17,595 | 1.96% | `aggregated-fr-only.txt` |
+| Netherlands | NL | 18,273 | 18,151 | 47,476 | 5.28% | `aggregated-nl-only.txt` |
+| Italy | IT | 9,580 | 9,556 | 13,290 | 1.48% | `aggregated-it-only.txt` |
+| Spain | ES | 11,140 | 11,107 | 6,246 | 0.69% | `aggregated-es-only.txt` |
+| Mexico | MX | 4,307 | 4,303 | 9,868 | 1.10% | `aggregated-mx-only.txt` |
+| Japan | JP | 12,061 | 12,055 | 12,074 | 1.34% | `aggregated-jp-only.txt` |
+| Australia | AU | 11,396 | 11,317 | 14,925 | 1.66% | `aggregated-au-only.txt` |
+| Singapore | SG | 9,268 | 9,258 | 27,515 | 3.06% | `aggregated-sg-only.txt` |
+| United States | US | 169,198 | 167,680 | 145,488 | 16.17% | `aggregated-us-only.txt` |
+| Canada | CA | 16,890 | 16,768 | 21,131 | 2.35% | `aggregated-ca-only.txt` |
+| United Kingdom | GB | 33,411 | 33,252 | 26,301 | 2.92% | `aggregated-gb-only.txt` |
+| Australia | AU | 11,396 | 11,317 | 14,925 | 1.66% | `aggregated-au-only.txt` |
+| Germany | DE | 28,972 | 28,867 | 34,512 | 3.83% | `aggregated-de-only.txt` |
 | South Korea | KR | 4,006 | 3,996 | 12,816 | 1.42% | `aggregated-kr-only.txt` |
 
 ## IP Sources
@@ -105,21 +105,21 @@ pie showData title IP Blocklist Distribution by Country
 
 ### 📁 Generated Files
 
-- **`aggregated.txt`** - 899,696 total aggregated IPs from all sources
-- **`aggregated-au-only.txt`** - 14,921 IPs from AU
-- **`aggregated-ca-only.txt`** - 21,107 IPs from CA
-- **`aggregated-de-only.txt`** - 34,487 IPs from DE
-- **`aggregated-es-only.txt`** - 6,242 IPs from ES
-- **`aggregated-fr-only.txt`** - 17,583 IPs from FR
-- **`aggregated-gb-only.txt`** - 26,305 IPs from GB
-- **`aggregated-it-only.txt`** - 13,287 IPs from IT
-- **`aggregated-jp-only.txt`** - 12,068 IPs from JP
+- **`aggregated.txt`** - 899,948 total aggregated IPs from all sources
+- **`aggregated-au-only.txt`** - 14,925 IPs from AU
+- **`aggregated-ca-only.txt`** - 21,131 IPs from CA
+- **`aggregated-de-only.txt`** - 34,512 IPs from DE
+- **`aggregated-es-only.txt`** - 6,246 IPs from ES
+- **`aggregated-fr-only.txt`** - 17,595 IPs from FR
+- **`aggregated-gb-only.txt`** - 26,301 IPs from GB
+- **`aggregated-it-only.txt`** - 13,290 IPs from IT
+- **`aggregated-jp-only.txt`** - 12,074 IPs from JP
 - **`aggregated-kr-only.txt`** - 12,816 IPs from KR
-- **`aggregated-mx-only.txt`** - 9,865 IPs from MX
-- **`aggregated-nl-only.txt`** - 47,472 IPs from NL
-- **`aggregated-sg-only.txt`** - 27,512 IPs from SG
-- **`aggregated-us-only.txt`** - 145,426 IPs from US
-- **`aggregated-multi-14countries-combined.txt`** - 389,091 unique IPs (deduplicated across all countries)
+- **`aggregated-mx-only.txt`** - 9,868 IPs from MX
+- **`aggregated-nl-only.txt`** - 47,476 IPs from NL
+- **`aggregated-sg-only.txt`** - 27,515 IPs from SG
+- **`aggregated-us-only.txt`** - 145,488 IPs from US
+- **`aggregated-multi-14countries-combined.txt`** - 389,237 unique IPs (deduplicated across all countries)
 
 ---
 
