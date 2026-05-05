@@ -10,7 +10,7 @@
 
 * * *
 
-Automated IP blocklist aggregation with multi-country geographical filtering
+Automated IP blocklist aggregation with multi-country geographical filtering templated from [HERE](https://github.com/MarcusHoltz/ipblocklist-geofiltered-aggregator)
 
 * * *
 
