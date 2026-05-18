@@ -21,7 +21,7 @@ on:
      #        │ │ │ │ │
      #        * * * * *
     - cron: "17 */6 * * *"
-     # Scheduled run above - daily at 2:17 AM and 2:17 PM (using prime number for odd min time)
+     # Scheduled run above - Runs at 17 minutes past the hour, every 6 hours (using prime number for odd min time)
      #  cron: "37 13 * * 6"
      # Example run above - Saturday at 13:37 UTC (7:37am MDT, once a week, on Sunday)
      #  cron: "7 6 */2 * *"
