@@ -20,7 +20,7 @@ on:
      #        │ │ │ │ ┌───────────── day of week (0 - 6) (SUN-SAT, 0 = SUN)
      #        │ │ │ │ │
      #        * * * * *
-    - cron: "17 */4 * * *"
+    - cron: "17 */6 * * *"
      # Scheduled run above - daily at 2:17 AM and 2:17 PM (using prime number for odd min time)
      #  cron: "37 13 * * 6"
      # Example run above - Saturday at 13:37 UTC (7:37am MDT, once a week, on Sunday)
