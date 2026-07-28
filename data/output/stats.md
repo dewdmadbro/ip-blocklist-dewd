@@ -1,6 +1,6 @@
 # Multi-Country IP Aggregation Statistics
 
-**Last Updated:** 2026-07-28 09:14:27 UTC
+**Last Updated:** 2026-07-28 14:48:22 UTC
 
 ## 📈 Country Distribution
 
@@ -8,7 +8,7 @@
 pie showData title IP Blocklist Distribution by Country
 "United States" : 18.6
 "China" : 13.6
-"India" : 6.1
+"India" : 6.0
 "Brazil" : 5.5
 "Netherlands" : 4.0
 "Germany" : 3.6
@@ -30,9 +30,9 @@ pie showData title IP Blocklist Distribution by Country
 
 ## Overall Summary
 
-- **Total Input IPs:** 1,279,627
+- **Total Input IPs:** 1,280,520
 - **Countries Processed:** 50
-- **Combined Unique IPs:** 1,125,791
+- **Combined Unique IPs:** 1,126,581
 - **Combined Output File:** `aggregated-multi-50countries-combined.txt`
 - **Overall Filter Rate:** 87.98%
 
@@ -40,56 +40,56 @@ pie showData title IP Blocklist Distribution by Country
 
 | Country | Code | Networks Found | Networks Optimized | IPs Matched | Filter Rate | Output File |
 |---------|------|----------------|--------------------|-----------|-----------|-----------|
-| United States | US | 135,484 | 133,670 | 237,519 | 18.56% | `aggregated-us-only.txt` |
-| China | CN | 7,801 | 7,800 | 173,637 | 13.57% | `aggregated-cn-only.txt` |
-| India | IN | 13,176 | 13,145 | 77,425 | 6.05% | `aggregated-in-only.txt` |
-| Germany | DE | 29,225 | 29,158 | 46,510 | 3.63% | `aggregated-de-only.txt` |
-| Russia | RU | 13,278 | 13,041 | 27,838 | 2.18% | `aggregated-ru-only.txt` |
-| United Kingdom | GB | 35,497 | 35,342 | 32,396 | 2.53% | `aggregated-gb-only.txt` |
-| Thailand | TH | 1,984 | 1,984 | 15,443 | 1.21% | `aggregated-th-only.txt` |
-| Vietnam | VN | 2,193 | 2,193 | 40,081 | 3.13% | `aggregated-vn-only.txt` |
-| South Korea | KR | 3,949 | 3,939 | 15,959 | 1.25% | `aggregated-kr-only.txt` |
-| Brazil | BR | 13,023 | 12,978 | 69,754 | 5.45% | `aggregated-br-only.txt` |
-| Taiwan | TW | 2,388 | 2,388 | 14,029 | 1.10% | `aggregated-tw-only.txt` |
-| Canada | CA | 16,948 | 16,824 | 25,464 | 1.99% | `aggregated-ca-only.txt` |
-| Singapore | SG | 9,453 | 9,443 | 35,180 | 2.75% | `aggregated-sg-only.txt` |
-| Italy | IT | 9,769 | 9,745 | 15,529 | 1.21% | `aggregated-it-only.txt` |
+| United States | US | 135,484 | 133,670 | 237,729 | 18.57% | `aggregated-us-only.txt` |
+| China | CN | 7,801 | 7,800 | 173,774 | 13.57% | `aggregated-cn-only.txt` |
+| India | IN | 13,176 | 13,145 | 77,469 | 6.05% | `aggregated-in-only.txt` |
+| Germany | DE | 29,225 | 29,158 | 46,534 | 3.63% | `aggregated-de-only.txt` |
+| Russia | RU | 13,278 | 13,041 | 27,848 | 2.17% | `aggregated-ru-only.txt` |
+| United Kingdom | GB | 35,497 | 35,342 | 32,490 | 2.54% | `aggregated-gb-only.txt` |
+| Thailand | TH | 1,984 | 1,984 | 15,444 | 1.21% | `aggregated-th-only.txt` |
+| Vietnam | VN | 2,193 | 2,193 | 40,099 | 3.13% | `aggregated-vn-only.txt` |
+| South Korea | KR | 3,949 | 3,939 | 15,962 | 1.25% | `aggregated-kr-only.txt` |
+| Brazil | BR | 13,023 | 12,978 | 69,918 | 5.46% | `aggregated-br-only.txt` |
+| Taiwan | TW | 2,388 | 2,388 | 14,033 | 1.10% | `aggregated-tw-only.txt` |
+| Canada | CA | 16,948 | 16,824 | 25,357 | 1.98% | `aggregated-ca-only.txt` |
+| Singapore | SG | 9,453 | 9,443 | 35,186 | 2.75% | `aggregated-sg-only.txt` |
+| Italy | IT | 9,769 | 9,745 | 15,530 | 1.21% | `aggregated-it-only.txt` |
 | Netherlands | NL | 18,880 | 18,759 | 51,413 | 4.02% | `aggregated-nl-only.txt` |
-| Indonesia | ID | 6,505 | 6,481 | 28,832 | 2.25% | `aggregated-id-only.txt` |
-| France | FR | 33,610 | 33,583 | 23,764 | 1.86% | `aggregated-fr-only.txt` |
-| Venezuela | VE | 957 | 957 | 7,791 | 0.61% | `aggregated-ve-only.txt` |
-| Australia | AU | 12,139 | 12,065 | 17,041 | 1.33% | `aggregated-au-only.txt` |
-| Turkey | TR | 3,450 | 3,428 | 13,764 | 1.08% | `aggregated-tr-only.txt` |
-| Ukraine | UA | 5,551 | 5,495 | 10,444 | 0.82% | `aggregated-ua-only.txt` |
-| Iran | IR | 2,048 | 2,047 | 5,415 | 0.42% | `aggregated-ir-only.txt` |
-| Poland | PL | 8,204 | 8,171 | 8,372 | 0.65% | `aggregated-pl-only.txt` |
-| Mexico | MX | 4,471 | 4,467 | 15,994 | 1.25% | `aggregated-mx-only.txt` |
-| Spain | ES | 11,172 | 11,153 | 9,445 | 0.74% | `aggregated-es-only.txt` |
-| Argentina | AR | 3,474 | 3,472 | 12,052 | 0.94% | `aggregated-ar-only.txt` |
-| Egypt | EG | 728 | 728 | 3,780 | 0.30% | `aggregated-eg-only.txt` |
-| Pakistan | PK | 1,355 | 1,353 | 17,780 | 1.39% | `aggregated-pk-only.txt` |
-| Malaysia | MY | 2,570 | 2,570 | 5,855 | 0.46% | `aggregated-my-only.txt` |
-| Bulgaria | BG | 2,376 | 2,365 | 3,076 | 0.24% | `aggregated-bg-only.txt` |
+| Indonesia | ID | 6,505 | 6,481 | 28,843 | 2.25% | `aggregated-id-only.txt` |
+| France | FR | 33,610 | 33,583 | 23,780 | 1.86% | `aggregated-fr-only.txt` |
+| Venezuela | VE | 957 | 957 | 7,795 | 0.61% | `aggregated-ve-only.txt` |
+| Australia | AU | 12,139 | 12,065 | 17,054 | 1.33% | `aggregated-au-only.txt` |
+| Turkey | TR | 3,450 | 3,428 | 13,766 | 1.08% | `aggregated-tr-only.txt` |
+| Ukraine | UA | 5,551 | 5,495 | 10,461 | 0.82% | `aggregated-ua-only.txt` |
+| Iran | IR | 2,048 | 2,047 | 5,420 | 0.42% | `aggregated-ir-only.txt` |
+| Poland | PL | 8,204 | 8,171 | 8,375 | 0.65% | `aggregated-pl-only.txt` |
+| Mexico | MX | 4,471 | 4,467 | 16,006 | 1.25% | `aggregated-mx-only.txt` |
+| Spain | ES | 11,172 | 11,153 | 9,450 | 0.74% | `aggregated-es-only.txt` |
+| Argentina | AR | 3,474 | 3,472 | 12,061 | 0.94% | `aggregated-ar-only.txt` |
+| Egypt | EG | 728 | 728 | 3,786 | 0.30% | `aggregated-eg-only.txt` |
+| Pakistan | PK | 1,355 | 1,353 | 17,797 | 1.39% | `aggregated-pk-only.txt` |
+| Malaysia | MY | 2,570 | 2,570 | 5,863 | 0.46% | `aggregated-my-only.txt` |
+| Bulgaria | BG | 2,376 | 2,365 | 3,078 | 0.24% | `aggregated-bg-only.txt` |
 | Czechia | CZ | 3,621 | 3,620 | 1,939 | 0.15% | `aggregated-cz-only.txt` |
-| Colombia | CO | 2,215 | 2,215 | 6,769 | 0.53% | `aggregated-co-only.txt` |
-| United Arab Emirates | AE | 3,842 | 3,842 | 4,399 | 0.34% | `aggregated-ae-only.txt` |
-| Romania | RO | 3,995 | 3,986 | 2,572 | 0.20% | `aggregated-ro-only.txt` |
-| Kazakhstan | KZ | 1,312 | 1,311 | 2,732 | 0.21% | `aggregated-kz-only.txt` |
-| Morocco | MA | 494 | 494 | 4,230 | 0.33% | `aggregated-ma-only.txt` |
-| Saudi Arabia | SA | 1,682 | 1,682 | 4,342 | 0.34% | `aggregated-sa-only.txt` |
-| South Africa | ZA | 4,021 | 4,007 | 8,710 | 0.68% | `aggregated-za-only.txt` |
-| Bangladesh | BD | 2,627 | 2,625 | 8,036 | 0.63% | `aggregated-bd-only.txt` |
-| Chile | CL | 1,975 | 1,973 | 3,722 | 0.29% | `aggregated-cl-only.txt` |
+| Colombia | CO | 2,215 | 2,215 | 6,773 | 0.53% | `aggregated-co-only.txt` |
+| United Arab Emirates | AE | 3,842 | 3,842 | 4,412 | 0.34% | `aggregated-ae-only.txt` |
+| Romania | RO | 3,995 | 3,986 | 2,573 | 0.20% | `aggregated-ro-only.txt` |
+| Kazakhstan | KZ | 1,312 | 1,311 | 2,734 | 0.21% | `aggregated-kz-only.txt` |
+| Morocco | MA | 494 | 494 | 4,233 | 0.33% | `aggregated-ma-only.txt` |
+| Saudi Arabia | SA | 1,682 | 1,682 | 4,345 | 0.34% | `aggregated-sa-only.txt` |
+| South Africa | ZA | 4,021 | 4,007 | 8,725 | 0.68% | `aggregated-za-only.txt` |
+| Bangladesh | BD | 2,627 | 2,625 | 8,038 | 0.63% | `aggregated-bd-only.txt` |
+| Chile | CL | 1,975 | 1,973 | 3,726 | 0.29% | `aggregated-cl-only.txt` |
 | Nigeria | NG | 1,091 | 1,091 | 1,805 | 0.14% | `aggregated-ng-only.txt` |
-| Kenya | KE | 873 | 873 | 2,995 | 0.23% | `aggregated-ke-only.txt` |
-| Algeria | DZ | 219 | 219 | 2,220 | 0.17% | `aggregated-dz-only.txt` |
+| Kenya | KE | 873 | 873 | 2,993 | 0.23% | `aggregated-ke-only.txt` |
+| Algeria | DZ | 219 | 219 | 2,224 | 0.17% | `aggregated-dz-only.txt` |
 | Serbia | RS | 992 | 990 | 1,312 | 0.10% | `aggregated-rs-only.txt` |
-| Peru | PE | 1,120 | 1,119 | 2,087 | 0.16% | `aggregated-pe-only.txt` |
-| Sri Lanka | LK | 248 | 248 | 962 | 0.08% | `aggregated-lk-only.txt` |
-| Iraq | IQ | 683 | 683 | 2,839 | 0.22% | `aggregated-iq-only.txt` |
-| Ethiopia | ET | 97 | 97 | 1,182 | 0.09% | `aggregated-et-only.txt` |
-| Ghana | GH | 342 | 342 | 595 | 0.05% | `aggregated-gh-only.txt` |
-| Belarus | BY | 417 | 417 | 761 | 0.06% | `aggregated-by-only.txt` |
+| Peru | PE | 1,120 | 1,119 | 2,088 | 0.16% | `aggregated-pe-only.txt` |
+| Sri Lanka | LK | 248 | 248 | 960 | 0.07% | `aggregated-lk-only.txt` |
+| Iraq | IQ | 683 | 683 | 2,841 | 0.22% | `aggregated-iq-only.txt` |
+| Ethiopia | ET | 97 | 97 | 1,183 | 0.09% | `aggregated-et-only.txt` |
+| Ghana | GH | 342 | 342 | 596 | 0.05% | `aggregated-gh-only.txt` |
+| Belarus | BY | 417 | 417 | 760 | 0.06% | `aggregated-by-only.txt` |
 
 ## IP Sources
 
