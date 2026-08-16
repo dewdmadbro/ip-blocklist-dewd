@@ -2,7 +2,7 @@
 
 ![Workflow Status](https://github.com/dewdmadbro/ip-blocklist-dewd/actions/workflows/ip-aggregation.yml/badge.svg)
 ![Countries](https://img.shields.io/badge/Countries-50-278EF5)
-![Total IPs Blocked](https://img.shields.io/badge/Blocked_IPs-1360056-2D56A8)
+![Total IPs Blocked](https://img.shields.io/badge/Blocked_IPs-1366870-2D56A8)
           
 ![Issues](https://img.shields.io/github/issues/dewdmadbro/ip-blocklist-dewd)
 ![Last Commit](https://img.shields.io/github/last-commit/dewdmadbro/ip-blocklist-dewd)
@@ -27,13 +27,13 @@ Automated IP blocklist aggregation with multi-country geographical filtering
 
 ## 📊 Latest Statistics
 
-**Last Updated:** 2026-08-16 13:10:00 UTC
+**Last Updated:** 2026-08-16 18:55:11 UTC
 
 ## 📈 Country Distribution
 
 ```mermaid
 pie showData title IP Blocklist Distribution by Country
-"United States" : 18.5
+"United States" : 18.4
 "China" : 14.9
 "India" : 5.9
 "Brazil" : 5.8
@@ -52,71 +52,71 @@ pie showData title IP Blocklist Distribution by Country
 "South Korea" : 1.2
 "Ukraine" : 1.2
 "Italy" : 1.2
-"Other/Unfiltered" : 24.2
+"Other/Unfiltered" : 24.3
 ```
 
 ## Overall Summary
 
-- **Total Input IPs:** 1,360,056
+- **Total Input IPs:** 1,366,870
 - **Countries Processed:** 50
-- **Combined Unique IPs:** 1,200,277
+- **Combined Unique IPs:** 1,205,771
 - **Combined Output File:** `aggregated-multi-50countries-combined.txt`
-- **Overall Filter Rate:** 88.25%
+- **Overall Filter Rate:** 88.21%
 
 ## Per-Country Results
 
 | Country | Code | Networks Found | Networks Optimized | IPs Matched | Filter Rate | Output File |
 |---------|------|----------------|--------------------|-----------|-----------|-----------|
-| United States | US | 131,721 | 129,853 | 251,119 | 18.46% | `aggregated-us-only.txt` |
-| China | CN | 7,864 | 7,863 | 203,044 | 14.93% | `aggregated-cn-only.txt` |
-| India | IN | 13,234 | 13,204 | 80,036 | 5.88% | `aggregated-in-only.txt` |
-| Germany | DE | 29,761 | 29,693 | 44,743 | 3.29% | `aggregated-de-only.txt` |
-| Russia | RU | 13,233 | 12,998 | 30,284 | 2.23% | `aggregated-ru-only.txt` |
-| United Kingdom | GB | 35,713 | 35,551 | 33,706 | 2.48% | `aggregated-gb-only.txt` |
-| Thailand | TH | 2,040 | 2,040 | 15,419 | 1.13% | `aggregated-th-only.txt` |
-| Vietnam | VN | 2,211 | 2,211 | 38,487 | 2.83% | `aggregated-vn-only.txt` |
-| South Korea | KR | 3,928 | 3,918 | 16,643 | 1.22% | `aggregated-kr-only.txt` |
-| Brazil | BR | 12,587 | 12,545 | 78,904 | 5.80% | `aggregated-br-only.txt` |
-| Taiwan | TW | 2,426 | 2,426 | 15,372 | 1.13% | `aggregated-tw-only.txt` |
-| Canada | CA | 17,158 | 17,035 | 26,389 | 1.94% | `aggregated-ca-only.txt` |
-| Singapore | SG | 9,489 | 9,479 | 36,731 | 2.70% | `aggregated-sg-only.txt` |
-| Italy | IT | 9,745 | 9,711 | 15,997 | 1.18% | `aggregated-it-only.txt` |
-| Netherlands | NL | 19,207 | 19,084 | 51,525 | 3.79% | `aggregated-nl-only.txt` |
-| Indonesia | ID | 6,580 | 6,556 | 29,530 | 2.17% | `aggregated-id-only.txt` |
-| France | FR | 33,617 | 33,588 | 24,966 | 1.84% | `aggregated-fr-only.txt` |
-| Venezuela | VE | 971 | 971 | 7,475 | 0.55% | `aggregated-ve-only.txt` |
-| Australia | AU | 12,195 | 12,123 | 17,356 | 1.28% | `aggregated-au-only.txt` |
-| Turkey | TR | 3,488 | 3,471 | 14,252 | 1.05% | `aggregated-tr-only.txt` |
-| Ukraine | UA | 5,564 | 5,509 | 16,011 | 1.18% | `aggregated-ua-only.txt` |
-| Iran | IR | 2,067 | 2,066 | 5,823 | 0.43% | `aggregated-ir-only.txt` |
-| Poland | PL | 8,187 | 8,156 | 8,931 | 0.66% | `aggregated-pl-only.txt` |
-| Mexico | MX | 4,335 | 4,331 | 16,721 | 1.23% | `aggregated-mx-only.txt` |
-| Spain | ES | 11,384 | 11,366 | 10,206 | 0.75% | `aggregated-es-only.txt` |
-| Argentina | AR | 3,455 | 3,453 | 14,265 | 1.05% | `aggregated-ar-only.txt` |
-| Egypt | EG | 737 | 737 | 3,841 | 0.28% | `aggregated-eg-only.txt` |
-| Pakistan | PK | 1,362 | 1,361 | 18,395 | 1.35% | `aggregated-pk-only.txt` |
-| Malaysia | MY | 2,599 | 2,599 | 6,266 | 0.46% | `aggregated-my-only.txt` |
-| Bulgaria | BG | 2,356 | 2,345 | 3,130 | 0.23% | `aggregated-bg-only.txt` |
-| Czechia | CZ | 3,644 | 3,643 | 1,982 | 0.15% | `aggregated-cz-only.txt` |
-| Colombia | CO | 2,219 | 2,219 | 6,872 | 0.51% | `aggregated-co-only.txt` |
-| United Arab Emirates | AE | 3,674 | 3,674 | 4,635 | 0.34% | `aggregated-ae-only.txt` |
-| Romania | RO | 4,040 | 4,031 | 2,618 | 0.19% | `aggregated-ro-only.txt` |
-| Kazakhstan | KZ | 1,322 | 1,321 | 2,824 | 0.21% | `aggregated-kz-only.txt` |
-| Morocco | MA | 494 | 494 | 4,836 | 0.36% | `aggregated-ma-only.txt` |
-| Saudi Arabia | SA | 1,706 | 1,706 | 4,707 | 0.35% | `aggregated-sa-only.txt` |
-| South Africa | ZA | 4,040 | 4,026 | 8,845 | 0.65% | `aggregated-za-only.txt` |
-| Bangladesh | BD | 2,681 | 2,677 | 7,029 | 0.52% | `aggregated-bd-only.txt` |
-| Chile | CL | 1,996 | 1,994 | 4,261 | 0.31% | `aggregated-cl-only.txt` |
-| Nigeria | NG | 1,096 | 1,096 | 1,717 | 0.13% | `aggregated-ng-only.txt` |
-| Kenya | KE | 886 | 886 | 2,944 | 0.22% | `aggregated-ke-only.txt` |
-| Algeria | DZ | 220 | 220 | 2,127 | 0.16% | `aggregated-dz-only.txt` |
-| Serbia | RS | 994 | 992 | 1,348 | 0.10% | `aggregated-rs-only.txt` |
-| Peru | PE | 1,110 | 1,109 | 2,108 | 0.15% | `aggregated-pe-only.txt` |
-| Sri Lanka | LK | 251 | 251 | 1,014 | 0.07% | `aggregated-lk-only.txt` |
-| Iraq | IQ | 676 | 676 | 2,383 | 0.18% | `aggregated-iq-only.txt` |
-| Ethiopia | ET | 98 | 98 | 1,048 | 0.08% | `aggregated-et-only.txt` |
-| Ghana | GH | 350 | 350 | 629 | 0.05% | `aggregated-gh-only.txt` |
-| Belarus | BY | 422 | 422 | 783 | 0.06% | `aggregated-by-only.txt` |
+| United States | US | 131,721 | 129,853 | 251,598 | 18.41% | `aggregated-us-only.txt` |
+| China | CN | 7,864 | 7,863 | 203,435 | 14.88% | `aggregated-cn-only.txt` |
+| India | IN | 13,234 | 13,204 | 80,602 | 5.90% | `aggregated-in-only.txt` |
+| Germany | DE | 29,761 | 29,693 | 44,772 | 3.28% | `aggregated-de-only.txt` |
+| Russia | RU | 13,233 | 12,998 | 30,360 | 2.22% | `aggregated-ru-only.txt` |
+| United Kingdom | GB | 35,713 | 35,551 | 33,760 | 2.47% | `aggregated-gb-only.txt` |
+| Thailand | TH | 2,040 | 2,040 | 15,501 | 1.13% | `aggregated-th-only.txt` |
+| Vietnam | VN | 2,211 | 2,211 | 38,718 | 2.83% | `aggregated-vn-only.txt` |
+| South Korea | KR | 3,928 | 3,918 | 16,659 | 1.22% | `aggregated-kr-only.txt` |
+| Brazil | BR | 12,587 | 12,545 | 79,594 | 5.82% | `aggregated-br-only.txt` |
+| Taiwan | TW | 2,426 | 2,426 | 15,397 | 1.13% | `aggregated-tw-only.txt` |
+| Canada | CA | 17,158 | 17,035 | 26,481 | 1.94% | `aggregated-ca-only.txt` |
+| Singapore | SG | 9,489 | 9,479 | 36,795 | 2.69% | `aggregated-sg-only.txt` |
+| Italy | IT | 9,745 | 9,711 | 16,029 | 1.17% | `aggregated-it-only.txt` |
+| Netherlands | NL | 19,207 | 19,084 | 51,541 | 3.77% | `aggregated-nl-only.txt` |
+| Indonesia | ID | 6,580 | 6,556 | 29,649 | 2.17% | `aggregated-id-only.txt` |
+| France | FR | 33,617 | 33,588 | 25,046 | 1.83% | `aggregated-fr-only.txt` |
+| Venezuela | VE | 971 | 971 | 7,525 | 0.55% | `aggregated-ve-only.txt` |
+| Australia | AU | 12,195 | 12,123 | 17,375 | 1.27% | `aggregated-au-only.txt` |
+| Turkey | TR | 3,488 | 3,471 | 14,372 | 1.05% | `aggregated-tr-only.txt` |
+| Ukraine | UA | 5,564 | 5,509 | 16,103 | 1.18% | `aggregated-ua-only.txt` |
+| Iran | IR | 2,067 | 2,066 | 5,826 | 0.43% | `aggregated-ir-only.txt` |
+| Poland | PL | 8,187 | 8,156 | 8,942 | 0.65% | `aggregated-pl-only.txt` |
+| Mexico | MX | 4,335 | 4,331 | 16,875 | 1.23% | `aggregated-mx-only.txt` |
+| Spain | ES | 11,384 | 11,366 | 10,233 | 0.75% | `aggregated-es-only.txt` |
+| Argentina | AR | 3,455 | 3,453 | 14,431 | 1.06% | `aggregated-ar-only.txt` |
+| Egypt | EG | 737 | 737 | 3,875 | 0.28% | `aggregated-eg-only.txt` |
+| Pakistan | PK | 1,362 | 1,361 | 18,785 | 1.37% | `aggregated-pk-only.txt` |
+| Malaysia | MY | 2,599 | 2,599 | 6,365 | 0.47% | `aggregated-my-only.txt` |
+| Bulgaria | BG | 2,356 | 2,345 | 3,136 | 0.23% | `aggregated-bg-only.txt` |
+| Czechia | CZ | 3,644 | 3,643 | 1,986 | 0.15% | `aggregated-cz-only.txt` |
+| Colombia | CO | 2,219 | 2,219 | 6,949 | 0.51% | `aggregated-co-only.txt` |
+| United Arab Emirates | AE | 3,674 | 3,674 | 4,673 | 0.34% | `aggregated-ae-only.txt` |
+| Romania | RO | 4,040 | 4,031 | 2,621 | 0.19% | `aggregated-ro-only.txt` |
+| Kazakhstan | KZ | 1,322 | 1,321 | 2,863 | 0.21% | `aggregated-kz-only.txt` |
+| Morocco | MA | 494 | 494 | 4,971 | 0.36% | `aggregated-ma-only.txt` |
+| Saudi Arabia | SA | 1,706 | 1,706 | 4,819 | 0.35% | `aggregated-sa-only.txt` |
+| South Africa | ZA | 4,040 | 4,026 | 8,977 | 0.66% | `aggregated-za-only.txt` |
+| Bangladesh | BD | 2,681 | 2,677 | 7,188 | 0.53% | `aggregated-bd-only.txt` |
+| Chile | CL | 1,996 | 1,994 | 4,340 | 0.32% | `aggregated-cl-only.txt` |
+| Nigeria | NG | 1,096 | 1,096 | 1,734 | 0.13% | `aggregated-ng-only.txt` |
+| Kenya | KE | 886 | 886 | 3,016 | 0.22% | `aggregated-ke-only.txt` |
+| Algeria | DZ | 220 | 220 | 2,177 | 0.16% | `aggregated-dz-only.txt` |
+| Serbia | RS | 994 | 992 | 1,356 | 0.10% | `aggregated-rs-only.txt` |
+| Peru | PE | 1,110 | 1,109 | 2,120 | 0.16% | `aggregated-pe-only.txt` |
+| Sri Lanka | LK | 251 | 251 | 1,024 | 0.07% | `aggregated-lk-only.txt` |
+| Iraq | IQ | 676 | 676 | 2,606 | 0.19% | `aggregated-iq-only.txt` |
+| Ethiopia | ET | 98 | 98 | 1,113 | 0.08% | `aggregated-et-only.txt` |
+| Ghana | GH | 350 | 350 | 641 | 0.05% | `aggregated-gh-only.txt` |
+| Belarus | BY | 422 | 422 | 817 | 0.06% | `aggregated-by-only.txt` |
 
 ## IP Sources
 
@@ -147,58 +147,58 @@ pie showData title IP Blocklist Distribution by Country
 
 ### 📁 Generated Files
 
-- **`aggregated.txt`** - 1,360,056 total aggregated IPs from all sources
-- **`aggregated-ae-only.txt`** - 4,635 IPs from AE
-- **`aggregated-ar-only.txt`** - 14,265 IPs from AR
-- **`aggregated-au-only.txt`** - 17,356 IPs from AU
-- **`aggregated-bd-only.txt`** - 7,029 IPs from BD
-- **`aggregated-bg-only.txt`** - 3,130 IPs from BG
-- **`aggregated-br-only.txt`** - 78,904 IPs from BR
-- **`aggregated-by-only.txt`** - 783 IPs from BY
-- **`aggregated-ca-only.txt`** - 26,389 IPs from CA
-- **`aggregated-cl-only.txt`** - 4,261 IPs from CL
-- **`aggregated-cn-only.txt`** - 203,044 IPs from CN
-- **`aggregated-co-only.txt`** - 6,872 IPs from CO
-- **`aggregated-cz-only.txt`** - 1,982 IPs from CZ
-- **`aggregated-de-only.txt`** - 44,743 IPs from DE
-- **`aggregated-dz-only.txt`** - 2,127 IPs from DZ
-- **`aggregated-eg-only.txt`** - 3,841 IPs from EG
-- **`aggregated-es-only.txt`** - 10,206 IPs from ES
-- **`aggregated-et-only.txt`** - 1,048 IPs from ET
-- **`aggregated-fr-only.txt`** - 24,966 IPs from FR
-- **`aggregated-gb-only.txt`** - 33,706 IPs from GB
-- **`aggregated-gh-only.txt`** - 629 IPs from GH
-- **`aggregated-id-only.txt`** - 29,530 IPs from ID
-- **`aggregated-in-only.txt`** - 80,036 IPs from IN
-- **`aggregated-iq-only.txt`** - 2,383 IPs from IQ
-- **`aggregated-ir-only.txt`** - 5,823 IPs from IR
-- **`aggregated-it-only.txt`** - 15,997 IPs from IT
-- **`aggregated-ke-only.txt`** - 2,944 IPs from KE
-- **`aggregated-kr-only.txt`** - 16,643 IPs from KR
-- **`aggregated-kz-only.txt`** - 2,824 IPs from KZ
-- **`aggregated-lk-only.txt`** - 1,014 IPs from LK
-- **`aggregated-ma-only.txt`** - 4,836 IPs from MA
-- **`aggregated-mx-only.txt`** - 16,721 IPs from MX
-- **`aggregated-my-only.txt`** - 6,266 IPs from MY
-- **`aggregated-ng-only.txt`** - 1,717 IPs from NG
-- **`aggregated-nl-only.txt`** - 51,525 IPs from NL
-- **`aggregated-pe-only.txt`** - 2,108 IPs from PE
-- **`aggregated-pk-only.txt`** - 18,395 IPs from PK
-- **`aggregated-pl-only.txt`** - 8,931 IPs from PL
-- **`aggregated-ro-only.txt`** - 2,618 IPs from RO
-- **`aggregated-rs-only.txt`** - 1,348 IPs from RS
-- **`aggregated-ru-only.txt`** - 30,284 IPs from RU
-- **`aggregated-sa-only.txt`** - 4,707 IPs from SA
-- **`aggregated-sg-only.txt`** - 36,731 IPs from SG
-- **`aggregated-th-only.txt`** - 15,419 IPs from TH
-- **`aggregated-tr-only.txt`** - 14,252 IPs from TR
-- **`aggregated-tw-only.txt`** - 15,372 IPs from TW
-- **`aggregated-ua-only.txt`** - 16,011 IPs from UA
-- **`aggregated-us-only.txt`** - 251,119 IPs from US
-- **`aggregated-ve-only.txt`** - 7,475 IPs from VE
-- **`aggregated-vn-only.txt`** - 38,487 IPs from VN
-- **`aggregated-za-only.txt`** - 8,845 IPs from ZA
-- **`aggregated-multi-50countries-combined.txt`** - 1,200,277 unique IPs (deduplicated across all countries)
+- **`aggregated.txt`** - 1,366,870 total aggregated IPs from all sources
+- **`aggregated-ae-only.txt`** - 4,673 IPs from AE
+- **`aggregated-ar-only.txt`** - 14,431 IPs from AR
+- **`aggregated-au-only.txt`** - 17,375 IPs from AU
+- **`aggregated-bd-only.txt`** - 7,188 IPs from BD
+- **`aggregated-bg-only.txt`** - 3,136 IPs from BG
+- **`aggregated-br-only.txt`** - 79,594 IPs from BR
+- **`aggregated-by-only.txt`** - 817 IPs from BY
+- **`aggregated-ca-only.txt`** - 26,481 IPs from CA
+- **`aggregated-cl-only.txt`** - 4,340 IPs from CL
+- **`aggregated-cn-only.txt`** - 203,435 IPs from CN
+- **`aggregated-co-only.txt`** - 6,949 IPs from CO
+- **`aggregated-cz-only.txt`** - 1,986 IPs from CZ
+- **`aggregated-de-only.txt`** - 44,772 IPs from DE
+- **`aggregated-dz-only.txt`** - 2,177 IPs from DZ
+- **`aggregated-eg-only.txt`** - 3,875 IPs from EG
+- **`aggregated-es-only.txt`** - 10,233 IPs from ES
+- **`aggregated-et-only.txt`** - 1,113 IPs from ET
+- **`aggregated-fr-only.txt`** - 25,046 IPs from FR
+- **`aggregated-gb-only.txt`** - 33,760 IPs from GB
+- **`aggregated-gh-only.txt`** - 641 IPs from GH
+- **`aggregated-id-only.txt`** - 29,649 IPs from ID
+- **`aggregated-in-only.txt`** - 80,602 IPs from IN
+- **`aggregated-iq-only.txt`** - 2,606 IPs from IQ
+- **`aggregated-ir-only.txt`** - 5,826 IPs from IR
+- **`aggregated-it-only.txt`** - 16,029 IPs from IT
+- **`aggregated-ke-only.txt`** - 3,016 IPs from KE
+- **`aggregated-kr-only.txt`** - 16,659 IPs from KR
+- **`aggregated-kz-only.txt`** - 2,863 IPs from KZ
+- **`aggregated-lk-only.txt`** - 1,024 IPs from LK
+- **`aggregated-ma-only.txt`** - 4,971 IPs from MA
+- **`aggregated-mx-only.txt`** - 16,875 IPs from MX
+- **`aggregated-my-only.txt`** - 6,365 IPs from MY
+- **`aggregated-ng-only.txt`** - 1,734 IPs from NG
+- **`aggregated-nl-only.txt`** - 51,541 IPs from NL
+- **`aggregated-pe-only.txt`** - 2,120 IPs from PE
+- **`aggregated-pk-only.txt`** - 18,785 IPs from PK
+- **`aggregated-pl-only.txt`** - 8,942 IPs from PL
+- **`aggregated-ro-only.txt`** - 2,621 IPs from RO
+- **`aggregated-rs-only.txt`** - 1,356 IPs from RS
+- **`aggregated-ru-only.txt`** - 30,360 IPs from RU
+- **`aggregated-sa-only.txt`** - 4,819 IPs from SA
+- **`aggregated-sg-only.txt`** - 36,795 IPs from SG
+- **`aggregated-th-only.txt`** - 15,501 IPs from TH
+- **`aggregated-tr-only.txt`** - 14,372 IPs from TR
+- **`aggregated-tw-only.txt`** - 15,397 IPs from TW
+- **`aggregated-ua-only.txt`** - 16,103 IPs from UA
+- **`aggregated-us-only.txt`** - 251,598 IPs from US
+- **`aggregated-ve-only.txt`** - 7,525 IPs from VE
+- **`aggregated-vn-only.txt`** - 38,718 IPs from VN
+- **`aggregated-za-only.txt`** - 8,977 IPs from ZA
+- **`aggregated-multi-50countries-combined.txt`** - 1,205,771 unique IPs (deduplicated across all countries)
 
 ---
 
